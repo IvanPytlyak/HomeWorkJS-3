@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+ 
+ <form>
+    <label for="name">Имя:</label>
+    <input type="text" name="name" id="name">
+  
+    <label for="surname">Фамилия:</label>
+    <input type="text" name="surname" id="surname">
+  
+    <label for="age">Возраст:</label>
+    <input type="text" name="age" id="age">
+  
+    <button id="run" type="submit">Отправить</button>
+    <button id="remove" type="submit">удалить</button>
+  </form>
+  
+<table>
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Age</th>
+    <th>Actions</th>
+  </tr>
+  <tr>
+    <td>
+      <tbody id="userTableBody"></tbody>
+    </td>
+  </tr>
+</table>
+
+<script src="myjs.js"></script>
+
+
+</body>
+</html>
